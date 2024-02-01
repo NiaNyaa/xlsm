@@ -1,0 +1,12 @@
+Sub FillCellsUsingForLoop()
+    Dim nilaiAwal As Integer
+    nilaiAwal = 1
+    
+    Dim jumlahIterasi As Integer
+    jumlahIterasi = 9
+    
+    For i = 0 To jumlahIterasi - 1
+        Range("A" & nilaiAwal + i).Value = nilaiAwal + i
+    Next i
+End Sub
+
