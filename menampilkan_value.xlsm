@@ -1,0 +1,8 @@
+Sub TampilkanValueDenganAlert()
+    ' Mengambil nilai dari sel A1
+    Dim nilaiA1 As Variant
+    nilaiA1 = Range("A1").Value
+    
+    ' Menampilkan nilai menggunakan MsgBox
+    MsgBox "Nilai di A1 adalah: " & nilaiA1
+End Sub
