@@ -1,0 +1,3 @@
+Sub Test()
+    ActiveSheet.UsedRange.Clear
+End Sub
