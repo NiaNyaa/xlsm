@@ -1,0 +1,12 @@
+Sub TestIfElse()
+
+    Dim nilaiA1 As Integer
+    nilaiA1 = Range("A1").Value
+    
+    If nilaiA1 > 5 Then
+        MsgBox "Nilai di A1 lebih besar dari 5"
+    Else
+        MsgBox "Nilai di A1 kurang dari atau sama dengan 5"
+    End If
+End Sub
+
