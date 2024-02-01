@@ -1,0 +1,5 @@
+Sub ChangValue()
+    Dim Numbers As String
+    Huruf = "Test"
+    Range("A1").Value = Huruf
+End Sub
